@@ -1,0 +1,475 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeometryNET</name>
+    </assembly>
+    <members>
+        <member name="T:GeometryNET.Cone">
+            <summary>
+            Geometric parameters of the Cone.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Cone.GetVolumeByDiameter(System.Double,System.Double)">
+            <summary>
+            Returns a cone volume.
+            </summary>
+            <param name="diameter">Cone base diameter.</param>
+            <param name="height">Cone height length.</param>
+            <returns>Cone volume.</returns>
+        </member>
+        <member name="M:GeometryNET.Cone.GetVolumeByRadius(System.Double,System.Double)">
+            <summary>
+            Returns a cone volume.
+            </summary>
+            <param name="radius">Cone base radius.</param>
+            <param name="height">Cone height length.</param>
+            <returns>Cone volume.</returns>
+        </member>
+        <member name="M:GeometryNET.Cone.GetTruncatedVolumeByDiameter(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a cone truncated volume.
+            </summary>
+            <param name="diameterOne">Cone one base diameter.</param>
+            <param name="diameterOther">Cone the other base diameter.</param>
+            <param name="height">Cone height length.</param>
+            <returns>Cone truncated volume.</returns>
+        </member>
+        <member name="M:GeometryNET.Cone.GetTruncatedVolumeByRadius(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a cone truncated volume.
+            </summary>
+            <param name="radiusOne">Cone truncated one base radius.</param>
+            <param name="radiusOther">Cone truncated the other base radius.</param>
+            <param name="height">Cone truncated height length.</param>
+            <returns>Cone truncated volume.</returns>
+        </member>
+        <member name="T:GeometryNET.Cylinder">
+            <summary>
+            Geometric parameters of the Cylinder.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Cylinder.GetVolumeByDiameter(System.Double,System.Double)">
+            <summary>
+            Returns a cylinder volume.
+            </summary>
+            <param name="diameter">Cylinder base diameter.</param>
+            <param name="height">Cylinder height length.</param>
+            <returns>Cylinder volume.</returns>
+        </member>
+        <member name="M:GeometryNET.Cylinder.GetVolumeByRadius(System.Double,System.Double)">
+            <summary>
+            Returns a cylinder volume.
+            </summary>
+            <param name="radius">Cylinder base radius.</param>
+            <param name="height">Cylinder height length.</param>
+            <returns>Cylinder volume.</returns>
+        </member>
+        <member name="T:GeometryNET.Exceptions.GeometryArgumentException">
+            <summary>
+            The exception that is thrown when one of the arguments provided to a method is not valid.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Exceptions.GeometryArgumentException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:GeometryNET.Exceptions.GeometryArgumentException"/> class.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+        </member>
+        <member name="T:GeometryNET.Parallelogram">
+            <summary>
+            Geometric parameters of the Parallelogram.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Parallelogram.GetPerimeter(System.Double,System.Double)">
+            <summary>
+            Returns a parallelogram perimeter.
+            </summary>
+            <param name="a">Parallelogram first side length.</param>
+            <param name="b">Parallelogram second side length.</param>
+            <returns>Parallelogram perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Parallelogram.GetAreaBySideAndHeight(System.Double,System.Double)">
+            <summary>
+            Returns a parallelogram area.
+            </summary>
+            <param name="a">Parallelogram side length.</param>
+            <param name="height">Parallelogram side height.</param>
+            <returns>Parallelogram area.</returns>
+        </member>
+        <member name="M:GeometryNET.Parallelogram.GetAreaBySideAndAngle(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a parallelogram area.
+            </summary>
+            <param name="a">Parallelogram first side length.</param>
+            <param name="b">Parallelogram second side length.</param>
+            <param name="angle">Parallelogram angle between two side.</param>
+            <returns>Parallelogram area.</returns>
+        </member>
+        <member name="M:GeometryNET.Parallelogram.GetAreaByDiagonal(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a parallelogram area.
+            </summary>
+            <param name="a">Parallelogram first diagonal length.</param>
+            <param name="b">Parallelogram second diagonal length.</param>
+            <param name="angle">Parallelogram angle between two diagonal.</param>
+            <returns>Parallelogram area.</returns>
+        </member>
+        <member name="T:GeometryNET.Prism">
+            <summary>
+            Geometric parameters of the Cone.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Prism.GetVolume(System.Double,System.Double)">
+            <summary>
+            Returns a prism volume.
+            </summary>
+            <param name="area">Prism base area.</param>
+            <param name="height">Prism height length.</param>
+            <returns>Prism volume.</returns>
+        </member>
+        <member name="T:GeometryNET.Rectangle">
+            <summary>
+            Geometric parameters of the rectangle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Rectangle.GetPerimeter(System.Double,System.Double)">
+            <summary>
+            Returns a rectangle perimeter.
+            </summary>
+            <param name="width">Rectangle width length.</param>
+            <param name="height">Rectangle height length.</param>
+            <returns>Rectangle perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Rectangle.GetArea(System.Double,System.Double)">
+            <summary>
+            Returns a rectangle area.
+            </summary>
+            <param name="width">Rectangle width length.</param>
+            <param name="height">Rectangle height length.</param>
+            <returns>Rectangle area.</returns>
+        </member>
+        <member name="T:GeometryNET.Rhombus">
+            <summary>
+            Geometric parameters of the rhombus.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Rhombus.GetPerimeter(System.Double)">
+            <summary>
+            Returns a rhombus perimeter.
+            </summary>
+            <param name="a">Rhombus side length.</param>
+            <returns>Rhombus perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Rhombus.GetAreaBySideAndHeight(System.Double,System.Double)">
+            <summary>
+            Returns a rhombus area.
+            </summary>
+            <param name="a">Rhombus side length.</param>
+            <param name="height">Rhombus height length.</param>
+            <returns>Rhombus area.</returns>
+        </member>
+        <member name="M:GeometryNET.Rhombus.GetAreaBySideAndAngle(System.Double,System.Double)">
+            <summary>
+            Returns a rhombus area.
+            </summary>
+            <param name="a">Rhombus side length.</param>
+            <param name="angle">Rhombus angle between two side.</param>
+            <returns>Rhombus area.</returns>
+        </member>
+        <member name="M:GeometryNET.Rhombus.GetAreaByDiagonal(System.Double,System.Double)">
+            <summary>
+            Returns a rhombus area.
+            </summary>
+            <param name="a">Rhombus first diagonal length.</param>
+            <param name="b">Rhombus second diagonal length.</param>
+            <returns>Rhombus area.</returns>
+        </member>
+        <member name="T:GeometryNET.Sphere">
+            <summary>
+            Geometric parameters of the sphere.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Sphere.GetVolumeByDiameter(System.Double)">
+            <summary>
+            Returns a sphere volume.
+            </summary>
+            <param name="diameter">Sphere diameter.</param>
+            <returns>Sphere volume.</returns>
+        </member>
+        <member name="M:GeometryNET.Sphere.GetVolumeByRadius(System.Double)">
+            <summary>
+            Returns a sphere volume.
+            </summary>
+            <param name="radius">Sphere radius.</param>
+            <returns>Sphere volume.</returns>
+        </member>
+        <member name="T:GeometryNET.Square">
+            <summary>
+            Geometric parameters of the square.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Square.GetPerimeter(System.Double)">
+            <summary>
+            Returns a square perimeter.
+            </summary>
+            <param name="a">Square side length.</param>
+            <returns>Square perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Square.GetArea(System.Double)">
+            <summary>
+            Returns a square area.
+            </summary>
+            <param name="a">Square side length.</param>
+            <returns>Square area.</returns>
+        </member>
+        <member name="T:GeometryNET.Trapezoid">
+            <summary>
+            Geometric parameters of the trapezoid.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Trapezoid.GetPerimeter(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a trapezoid perimeter.
+            </summary>
+            <param name="a">Trapezoid first base length.</param>
+            <param name="b">Trapezoid second base length.</param>
+            <param name="c">Trapezoid first side length.</param>
+            <param name="d">Trapezoid second side length.</param>
+            <returns>Trapezoid perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Trapezoid.GetIsoscelesPerimeter(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a trapezoid isosceles perimeter.
+            </summary>
+            <param name="a">Trapezoid isosceles first base length.</param>
+            <param name="b">Trapezoid isosceles second base length.</param>
+            <param name="c">Trapezoid isosceles side length.</param>
+            <returns>Trapezoid isosceles perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Trapezoid.GetAreaByMidlineAndHeight(System.Double,System.Double)">
+            <summary>
+            Returns a trapezoid area.
+            </summary>
+            <param name="midline">Trapezoid midline length.</param>
+            <param name="height">Trapezoid height length.</param>
+            <returns>Trapezoid area.</returns>
+        </member>
+        <member name="M:GeometryNET.Trapezoid.GetAreaByDiagonalAndAngle(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a trapezoid area.
+            </summary>
+            <param name="a">Trapezoid first diagonal length.</param>
+            <param name="b">Trapezoid second diagonal length.</param>
+            <param name="angle">Trapezoid angle between two diagonal.</param>
+            <returns>Trapezoid area.</returns>
+        </member>
+        <member name="T:GeometryNET.Triangle">
+            <summary>
+            Geometric parameters of the triangle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetPerimeterByThreeSide(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle perimeter.
+            </summary>
+            <param name="a">Triangle first side length.</param>
+            <param name="b">Triangle second side length.</param>
+            <param name="c">Triangle third side length.</param>
+            <returns>Triangle perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetEquilateralPerimeterBySide(System.Double)">
+            <summary>
+            Returns a triangle equilateral perimeter.
+            </summary>
+            <param name="a">Triangle equilateral side length.</param>
+            <returns>Triangle equilateral perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaByTwoSideAndAngle(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle one side length adjacent to a angle.</param>
+            <param name="b">Triangle the other side length is adjacent to the angle.</param>
+            <param name="angle">Triangle angle between two side.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaByBaseAndHeight(System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle base length.</param>
+            <param name="h">Triangle height length.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaBySideAndTwoAngle(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle one side length adjacent to the angles.</param>
+            <param name="angleAlpha">Triangle first angle adjacent to one side.</param>
+            <param name="angleBetta">Triangle second angle adjacent to one side.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaByCircumscribedСircleAndTreeSide(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle first side length.</param>
+            <param name="b">Triangle second side length.</param>
+            <param name="c">Triangle third side length.</param>
+            <param name="radius">Triangle circumscribed circle radius.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaByInscribedСircleAndTreeSide(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle first side length.</param>
+            <param name="b">Triangle second side length.</param>
+            <param name="c">Triangle third side length.</param>
+            <param name="radius">Triangle inscribed circle radius.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetAreaByHeron(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a triangle area.
+            </summary>
+            <param name="a">Triangle first side length.</param>
+            <param name="b">Triangle second side length.</param>
+            <param name="c">Triangle third side length.</param>
+            <returns>Triangle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetEquilateralAreaByCircumscribedСircle(System.Double)">
+            <summary>
+            Returns a triangle equilateral area.
+            </summary>
+            <param name="radius">Triangle equilateral circumscribed circle radius.</param>
+            <returns>Triangle equilateral area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetEquilateralAreaByInscribedСircle(System.Double)">
+            <summary>
+            Returns a triangle equilateral area.
+            </summary>
+            <param name="radius">Triangle equilateral inscribed circle radius.</param>
+            <returns>Triangle equilateral area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetEquilateralAreaBySide(System.Double)">
+            <summary>
+            Returns a triangle equilateral area.
+            </summary>
+            <param name="a">Triangle equilateral side length.</param>
+            <returns>Triangle equilateral area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetEquilateralAreaByHeight(System.Double)">
+            <summary>
+            Returns a triangle equilateral area.
+            </summary>
+            <param name="height">Triangle equilateral height length.</param>
+            <returns>Triangle equilateral area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetRightAreaByTwoCathetus(System.Double,System.Double)">
+            <summary>
+            Returns a triangle right area.
+            </summary>
+            <param name="a">Triangle right one side length adjacent to a right angle.</param>
+            <param name="b">Triangle right the other side length is adjacent to the right angle.</param>
+            <returns>Triangle right area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetRightAreaByHypotenuseAndAngle(System.Double,System.Double)">
+            <summary>
+            Returns a triangle right area.
+            </summary>
+            <param name="hypotenuse">Triangle right hypotenuse length.</param>
+            <param name="angle">Triangle right angle adjacent to hypotenuse.</param>
+            <returns>Triangle right area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetRightAreaByCathetusAndAngle(System.Double,System.Double)">
+            <summary>
+            Returns a triangle right area.
+            </summary>
+            <param name="сathetus">Triangle right сathetus length.</param>
+            <param name="angle">Triangle right angle adjacent to сathetus.</param>
+            <returns>Triangle right area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetRightAreaByInscribedСircleAndHypotenuse(System.Double,System.Double)">
+            <summary>
+            Returns a triangle right area.
+            </summary>
+            <param name="hypotenuse">Triangle right hypotenuse length.</param>
+            <param name="radius">Triangle inscribed circle radius.</param>
+            <returns>Triangle right area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetIsoscelesAreaByBaseAndSide(System.Double,System.Double)">
+            <summary>
+            Returns a triangle isosceles area.
+            </summary>
+            <param name="a">Triangle isosceles side length.</param>
+            <param name="b">Triangle isosceles base length.</param>
+            <returns>Triangle isosceles area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetIsoscelesAreaByBaseAndHeight(System.Double,System.Double)">
+            <summary>
+            Returns a triangle isosceles area.
+            </summary>
+            <param name="b">Triangle isosceles base length.</param>
+            <param name="height">Triangle isosceles height length.</param>
+            <returns>Triangle isosceles area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetIsoscelesAreaBySideAndAngle(System.Double,System.Double)">
+            <summary>
+            Returns a triangle isosceles area.
+            </summary>
+            <param name="a">Triangle isosceles side length.</param>
+            <param name="angle">Triangle isosceles angle between two side.</param>
+            <returns>Triangle isosceles area.</returns>
+        </member>
+        <member name="M:GeometryNET.Triangle.GetIsoscelesAreaByBaseAndAngle(System.Double,System.Double)">
+            <summary>
+            Returns a triangle isosceles area.
+            </summary>
+            <param name="b">Triangle isosceles base length.</param>
+            <param name="angle">Triangle isosceles angle between two side.</param>
+            <returns>Triangle isosceles area.</returns>
+        </member>
+        <member name="T:GeometryNET.Сircle">
+            <summary>
+            Geometric parameters of the circle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Сircle.GetPerimeterByDiameter(System.Double)">
+            <summary>
+            Returns a circle perimeter.
+            </summary>
+            <param name="diameter">Circle diameter.</param>
+            <returns>Circle perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Сircle.GetPerimeterByRadius(System.Double)">
+            <summary>
+            Returns a circle perimeter.
+            </summary>
+            <param name="radius">Circle radius.</param>
+            <returns>Circle perimeter.</returns>
+        </member>
+        <member name="M:GeometryNET.Сircle.GetAreaByDiameter(System.Double)">
+            <summary>
+            Returns a circle area.
+            </summary>
+            <param name="diameter">Circle diameter.</param>
+            <returns>Circle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Сircle.GetAreaByRadius(System.Double)">
+            <summary>
+            Returns a circle area.
+            </summary>
+            <param name="radius">Circle radius.</param>
+            <returns>Circle area.</returns>
+        </member>
+        <member name="M:GeometryNET.Сircle.GetAreaBycCircumference(System.Double)">
+            <summary>
+            Returns a circle area.
+            </summary>
+            <param name="length">Circle circumference.</param>
+            <returns>Circle area.</returns>
+        </member>
+    </members>
+</doc>

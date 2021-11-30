@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GeometryNET.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:GeometryNET.Tests.ConeTests">
+            <summary>
+            Tests class Cone.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetVolumeByDiameterConeParametersReturnVolume">
+            <summary>
+            A test for Cone.GetVolumeByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetVolumeByDiameterConeParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cone.GetVolumeByDiameter.
+            </summary>
+            <param name="diameter">diameter.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetVolumeByRadiusConeParametersReturnVolume">
+            <summary>
+            A test for Cone.GetVolumeByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetVolumeByRadiusConeParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cone.GetVolumeByRadius.
+            </summary>
+            <param name="radius">radius.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetTruncatedVolumeByDiameterConeParametersReturnVolume">
+            <summary>
+            A test for Cone.GetTruncatedVolumeByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetTruncatedVolumeByDiameterConeParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cone.GetTruncatedVolumeByDiameter.
+            </summary>
+            <param name="diameterOne">diameterOne.</param>
+            <param name="diameterOther">diameterOther.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetTruncatedVolumeByRadiusConeParametersReturnVolume">
+            <summary>
+            A test for Cone.GetTruncatedVolumeByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ConeTests.GetTruncatedVolumeByRadiusConeParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cone.GetTruncatedVolumeByRadius.
+            </summary>
+            <param name="radiusOne">radiusOne.</param>
+            <param name="radiusOther">radiusOther.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.CylinderTests">
+            <summary>
+            Tests class Cylinder.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.CylinderTests.GetVolumeByDiameterCylinderParametersReturnVolume">
+            <summary>
+            A test for Cylinder.GetVolumeByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.CylinderTests.GetVolumeByDiameterCylinderParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cylinder.GetVolumeByDiameter.
+            </summary>
+            <param name="diameter">diameter.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.CylinderTests.GetVolumeByRadiusCylinderParametersReturnVolume">
+            <summary>
+            A test for Cylinder.GetVolumeByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.CylinderTests.GetVolumeByRadiusCylinderParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Cylinder.GetVolumeByRadius.
+            </summary>
+            <param name="radius">radius.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.ParallelogramTests">
+            <summary>
+            Tests class Parallelogram.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetPerimeterParallelogramParametersReturnPerimeter">
+            <summary>
+            A test for Parallelogram.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetPerimeterParallelogramParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Parallelogram.GetPerimeter.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaBySideAndHeightParallelogramParametersReturnArea">
+            <summary>
+            A test for Parallelogram.GetAreaBySideAndHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaBySideAndHeightParallelogramParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Parallelogram.GetAreaBySideAndHeight.
+            </summary>
+            <param name="a">a.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaBySideAndAngleParallelogramParametersReturnArea">
+            <summary>
+            A test for Parallelogram.GetAreaBySideAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaBySideAndAngleParallelogramParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Parallelogram.GetAreaBySideAndAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaByDiagonalParallelogramParametersReturnArea">
+            <summary>
+            A test for Parallelogram.GetAreaByDiagonal.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.ParallelogramTests.GetAreaByDiagonalParallelogramParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Parallelogram.GetAreaByDiagonal.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.PrismTests">
+            <summary>
+            Tests class Prism.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.PrismTests.GetVolumePrismParametersReturnVolume">
+            <summary>
+            A test for Prism.GetVolume.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.PrismTests.GetVolumePrismParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Prism.GetVolume.
+            </summary>
+            <param name="area">area.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.RectangleTests">
+            <summary>
+            Tests class Rectangle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RectangleTests.GetPerimeterRectangleParametersReturnPerimeter">
+            <summary>
+            A test for Rectangle.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RectangleTests.GetPerimeterRectangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Rectangle.GetPerimeter.
+            </summary>
+            <param name="width">width.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.RectangleTests.GetAreaRectangleParametersReturnArea">
+            <summary>
+            A test for Rectangle.GetArea.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RectangleTests.GetAreaRectangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Rectangle.GetArea.
+            </summary>
+            <param name="width">width.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.RhombusTests">
+            <summary>
+            Tests class Rhombus.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetPerimeterRhombusParametersReturnPerimeter">
+            <summary>
+            A test for Rhombus.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetPerimeterRhombusParametersReturnThrow">
+            <summary>
+            A test for Rhombus.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaBySideAndHeightRhombusParametersReturnArea">
+            <summary>
+            A test for Rhombus.GetAreaBySideAndHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaBySideAndHeightRhombusParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Rhombus.GetAreaBySideAndHeight.
+            </summary>
+            <param name="a">a.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaBySideAndAngleRhombusParametersReturnArea">
+            <summary>
+            A test for Rhombus.GetAreaBySideAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaBySideAndAngleRhombusParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Rhombus.GetAreaBySideAndAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaByDiagonalRhombusParametersReturnArea">
+            <summary>
+            A test for Rhombus.GetAreaByDiagonal.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.RhombusTests.GetAreaByDiagonalRhombusParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Rhombus.GetAreaByDiagonal.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.SphereTests">
+            <summary>
+            Tests class Sphere.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SphereTests.GetVolumeByDiameterSphereParametersReturnVolume">
+            <summary>
+            A test for Sphere.GetVolumeByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SphereTests.GetVolumeByDiameterSphereParametersReturnThrow">
+            <summary>
+            A test for Sphere.GetVolumeByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SphereTests.GetVolumeByRadiusSphereParametersReturnVolume">
+            <summary>
+            A test for Sphere.GetVolumeByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SphereTests.GetVolumeByRadiusSphereParametersReturnThrow">
+            <summary>
+            A test for Sphere.GetVolumeByRadius.
+            </summary>
+        </member>
+        <member name="T:GeometryNET.Tests.SquareTests">
+            <summary>
+            Tests class Square.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SquareTests.GetPerimeterSquareParametersReturnPerimeter">
+            <summary>
+            A test for Square.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SquareTests.GetPerimeterSquareParametersReturnThrow">
+            <summary>
+            A test for Square.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SquareTests.GetAreaSquareParametersReturnArea">
+            <summary>
+            A test for Square.GetArea.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.SquareTests.GetAreaSquareParametersReturnThrow">
+            <summary>
+            A test for Square.GetArea.
+            </summary>
+        </member>
+        <member name="T:GeometryNET.Tests.TrapezoidTests">
+            <summary>
+            Tests class Trapezoid.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetPerimeterTrapezoidParametersReturnPerimeter">
+            <summary>
+            A test for Trapezoid.GetPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetPerimeterTrapezoidParametersReturnThrow(System.Double,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Trapezoid.GetPerimeter.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="d">d.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetIsoscelesPerimeterTrapezoidIsoscelesParametersReturnPerimeter">
+            <summary>
+            A test for Trapezoid.GetIsoscelesPerimeter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetIsoscelesPerimeterTrapezoidIsoscelesParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Trapezoid.GetIsoscelesPerimeter.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetAreaByMidlineAndHeightTrapezoidParametersReturnArea">
+            <summary>
+            A test for Trapezoid.GetAreaByMidlineAndHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetAreaByMidlineAndHeightTrapezoidParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Trapezoid.GetAreaByMidlineAndHeight.
+            </summary>
+            <param name="midline">midline.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetAreaByDiagonalAndAngleTrapezoidParametersReturnArea">
+            <summary>
+            A test for Trapezoid.GetAreaByDiagonalAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TrapezoidTests.GetAreaByDiagonalAndAngleTrapezoidParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Trapezoid.GetAreaByDiagonalAndAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.TriangleTests">
+            <summary>
+            Tests class Triangle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetPerimeterByThreeSideTriangleParametersReturnPerimeter">
+            <summary>
+            A test for Triangle.GetPerimeterByThreeSide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetPerimeterByThreeSideTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetPerimeterByThreeSide.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralPerimeterBySideTriangleParametersReturnPerimeter">
+            <summary>
+            A test for Triangle.GetEquilateralPerimeterBySide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralPerimeterBySideTriangleParametersReturnThrow">
+            <summary>
+            A test for Triangle.GetEquilateralPerimeterBySide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByTwoSideAndAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaByTwoSideAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByTwoSideAndAngleTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaByTwoSideAndAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByBaseAndHeightTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaByBaseAndHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByBaseAndHeightTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaByBaseAndHeight.
+            </summary>
+            <param name="a">a.</param>
+            <param name="h">h.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaBySideAndTwoAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaBySideAndTwoAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaBySideAndTwoAngleTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaBySideAndTwoAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="angleAlpha">angleAlpha.</param>
+            <param name="angleBetta">angleBetta.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByCircumscribedСircleAndTreeSideTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaByCircumscribedСircleAndTreeSide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByCircumscribedСircleAndTreeSideTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaByCircumscribedСircleAndTreeSide.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="radius">radius.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByInscribedСircleAndTreeSideTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaByInscribedСircleAndTreeSide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByInscribedСircleAndTreeSideTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaByInscribedСircleAndTreeSide.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="radius">radius.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByHeronTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetAreaByHeron.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetAreaByHeronTriangleParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetAreaByHeron.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="c">c.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByCircumscribedСircleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByCircumscribedСircle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByCircumscribedСircleTriangleParametersReturnThrow">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByCircumscribedСircle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByInscribedСircleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByInscribedСircle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByInscribedСircleTriangleParametersReturnThrow">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByInscribedСircle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaBySideTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetEquilateralAreaBySide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaBySideTriangleParametersReturnThrow">
+            <summary>
+            A test for Triangle.GetEquilateralAreaBySide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByHeightTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetEquilateralAreaByHeightTriangleParametersReturnTrow">
+            <summary>
+            A test for Triangle.GetEquilateralAreaByHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByTwoCathetusTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetRightAreaByTwoCathetus.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByTwoCathetusTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetRightAreaByTwoCathetus.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByHypotenuseAndAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetRightAreaByHypotenuseAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByHypotenuseAndAngleTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetRightAreaByHypotenuseAndAngle.
+            </summary>
+            <param name="hypotenuse">hypotenuse.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByCathetusAndAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetRightAreaByCathetusAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByCathetusAndAngleTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetRightAreaByCathetusAndAngle.
+            </summary>
+            <param name="сathetus">сathetus.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByInscribedСircleAndHypotenuseTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetRightAreaByInscribedСircleAndHypotenuse.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetRightAreaByInscribedСircleAndHypotenuseTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetRightAreaByInscribedСircleAndHypotenuse.
+            </summary>
+            <param name="hypotenuse">hypotenuse.</param>
+            <param name="radius">radius.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndSideTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndSide.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndSideTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndSide.
+            </summary>
+            <param name="a">a.</param>
+            <param name="b">b.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndHeightTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndHeight.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndHeightTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndHeight.
+            </summary>
+            <param name="b">b.</param>
+            <param name="height">height.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaBySideAndAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaBySideAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaBySideAndAngleTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaBySideAndAngle.
+            </summary>
+            <param name="a">a.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndAngleTriangleParametersReturnArea">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndAngle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.TriangleTests.GetIsoscelesAreaByBaseAndAngleTriangleParametersReturnThrow(System.Double,System.Double,System.String)">
+            <summary>
+            A test for Triangle.GetIsoscelesAreaByBaseAndAngle.
+            </summary>
+            <param name="b">a.</param>
+            <param name="angle">angle.</param>
+            <param name="expected">expected.</param>
+        </member>
+        <member name="T:GeometryNET.Tests.СircleTests">
+            <summary>
+            Tests class Сircle.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetPerimeterByDiameterСircleParametersReturnPerimeter">
+            <summary>
+            A test for Сircle.GetPerimeterByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetPerimeterByDiameterСircleParametersReturnThrow">
+            <summary>
+            A test for Сircle.GetPerimeterByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetPerimeterByRadiusСircleParametersReturnPerimeter">
+            <summary>
+            A test for Сircle.GetPerimeterByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetPerimeterByRadiusСircleParametersReturnThrow">
+            <summary>
+            A test for Сircle.GetPerimeterByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaByDiameterСircleParametersReturnArea">
+            <summary>
+            A test for Сircle.GetAreaByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaByDiameterСircleParametersReturnThrow">
+            <summary>
+            A test for Сircle.GetAreaByDiameter.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaByRadiusСircleParametersReturnArea">
+            <summary>
+            A test for Сircle.GetAreaByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaByRadiusСircleParametersReturnThrow">
+            <summary>
+            A test for Сircle.GetAreaByRadius.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaBycCircumferenceСircleParametersReturnArea">
+            <summary>
+            A test for Сircle.GetAreaBycCircumference.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.СircleTests.GetAreaBycCircumferenceСircleParametersReturnThrow">
+            <summary>
+            A test for Сircle.GetAreaBycCircumference.
+            </summary>
+        </member>
+    </members>
+</doc>
