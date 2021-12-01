@@ -94,6 +94,24 @@
             <param name="height">height.</param>
             <param name="expected">expected.</param>
         </member>
+        <member name="T:GeometryNET.Tests.EllipsoidTests">
+            <summary>
+            Tests class Ellipsoid.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.EllipsoidTests.GetVolumeEllipsoidParametersReturnVolume">
+            <summary>
+            A test for Ellipsoid.GetVolume.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Tests.EllipsoidTests.GetVolumeEllipsoidParametersReturnThrow(System.Double,System.Double,System.Double,System.String)">
+            <summary>
+            A test for Ellipsoid.GetVolume.
+            </summary>
+            <param name="halfAxisHeight">halfAxisHeight.</param>
+            <param name="halfAxisWidth">halfAxisWidth.</param>
+            <param name="halfAxisDeflection">halfAxisDeflection.</param>
+        </member>
         <member name="T:GeometryNET.Tests.ParallelogramTests">
             <summary>
             Tests class Parallelogram.

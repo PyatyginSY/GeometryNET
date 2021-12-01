@@ -64,6 +64,20 @@
             <param name="height">Cylinder height length.</param>
             <returns>Cylinder volume.</returns>
         </member>
+        <member name="T:GeometryNET.Ellipsoid">
+            <summary>
+            Geometric parameters of the Ellipsoid.
+            </summary>
+        </member>
+        <member name="M:GeometryNET.Ellipsoid.GetVolume(System.Double,System.Double,System.Double)">
+            <summary>
+            Returns a ellipsoid volume.
+            </summary>
+            <param name="halfAxisHeight">Ellipsoid height half-axis.</param>
+            <param name="halfAxisWidth">Ellipsoid width half-axis.</param>
+            <param name="halfAxisDeflection">Ellipsoid deflection half-axis.</param>
+            <returns>Ellipsoid volume.</returns>
+        </member>
         <member name="T:GeometryNET.Exceptions.GeometryArgumentException">
             <summary>
             The exception that is thrown when one of the arguments provided to a method is not valid.
